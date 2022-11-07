@@ -63,7 +63,7 @@ diceEl.src = `dice-${dice}.png`;
  // 3.Check if 1 : if true,  
  if (dice !== 1) {
 // Add dice to current score
-    currentScore = currentScore + dice;
+    currentScore += dice;
     document.getElementById(`current--${activePlayer}`).textContent = currentScore;
 
  } else {
